@@ -1,0 +1,21 @@
+{
+  "name": "lion-tools",
+  "private": false,
+  "version": "0.0.4",
+  "type": "module",
+  "files": [
+    "dist/*"
+  ],
+  "main:": "dist/lion-tools.umd.js",
+  "module": "dist/lion-tools.es.js",
+  "scripts": {
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vite-plugin-dts": "^3.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5"
+  }
+}
